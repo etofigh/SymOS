@@ -36,6 +36,6 @@ typedef enum {
 #include "gpio.h"
 // #include "systimer.h"
 // #include "timer.h"
-// #include "interrupt.h"
+#include "interrupt.h"
 // #include "auxiliaries.h"
 // #include "emmc.h"
