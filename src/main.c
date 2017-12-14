@@ -1,6 +1,6 @@
 #include "rpi.h"
 
-int kernel_main(void)
+int kernel_main(unsigned int r0, unsigned int r1, unsigned int atags)
 {
 	while(1) {
 		gpio_clr_pin(16);
